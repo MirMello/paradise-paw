@@ -25,7 +25,7 @@
 }
 
 nav ul {
-  margin: 10px 0 0 100px;
+  margin: 10px 0 0 50px;
 }
 
 nav ul li {
@@ -47,13 +47,13 @@ nav ul li a::after {
 }
 
 .logo-image {
-  margin: 25px 0 0 100px;
+  margin: 25px 0 0 50px;
   height: 20vmin;
   border-radius: 50%;
 }
 
 nav article {
-  margin: 10px 0 0 100px;
+  margin: 10px 0 0 50px;
 }
 
 .column-2 {
@@ -67,6 +67,46 @@ nav article {
   padding: 20px;
 }
 
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage-column-2 {
+  margin-right: 50px;
+}
+
+.appointment-form input,
+.appointment-form textarea {
+    border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 75%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+
+.appointment-form input:focus,
+.appointment-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.appointment-form button {
+  width: 50%;
+  border: none;
+  background: var(--tertiary-color);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
 .footer-container {
   color: white;
   width: 80%;
@@ -78,5 +118,9 @@ nav article {
 }
 
 .footer-column-2 {
-  margin: 0 20px 0 20px;
+  margin: 0 50px 0 20px;
+}
+
+.facebook-page-link:hover {
+  color: var(--primary-color);
 }
