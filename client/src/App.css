@@ -40,14 +40,16 @@ nav ul li {
 
 .column-2 {
   width: 75%;
+  height: 100%;
 }
 
 .footer-container {
-  width: 100%;
-  position: sticky;
+  width: 75%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  bottom: 0;
 }
 
 .footer-column-2 {

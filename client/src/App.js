@@ -19,8 +19,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <body>
-        <div className='container'>
+        <body className='container'>
           <nav className='navColumn'>
             <Navbar></Navbar>
           </nav>
@@ -28,8 +27,7 @@ function App() {
             <Homepage></Homepage>
             <Footer></Footer>
           </div>
-        </div>
-      </body>
+        </body>
 
     </ApolloProvider>
   );
