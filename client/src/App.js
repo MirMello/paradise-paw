@@ -19,18 +19,17 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-
-      <div className='container'>
-        <nav className='navColumn'>
-          <Navbar></Navbar>
-        </nav>
-        <div>
-          <body>
+      <body>
+        <div className='container'>
+          <nav className='navColumn'>
+            <Navbar></Navbar>
+          </nav>
+          <div className='column-2'>
             <Homepage></Homepage>
-          </body>
-          <footer></footer>
+            <Footer></Footer>
+          </div>
         </div>
-      </div>
+      </body>
 
     </ApolloProvider>
   );

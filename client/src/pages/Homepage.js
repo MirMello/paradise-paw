@@ -2,8 +2,8 @@
 
 function Homepage ({setcurrentPage}) {
     return (
-        <body className="container">
-
+        <body>
+            <h1>Paradise Paw</h1>
         </body>
     )  
 };
