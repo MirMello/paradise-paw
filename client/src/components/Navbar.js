@@ -5,13 +5,19 @@ import logo from '../images/logo.jpg';
 function navbar () {
     return (
         <nav className='Navbar'>
-            <img className='logo' src={logo} alt=""></img>
+            <div className='logo'>
+            <img className='logo-image' src={logo} alt=""></img>
+            </div>
             <ul>
                 <li>Home</li>
-                <li>About Us</li>
+                <li><a href='about-me'>About Me</a></li>
                 <li>Book Appointment</li>
                 <li>Login</li>
             </ul>
+            <article>
+                <h3>Facebook Reviews:</h3>
+                <iframe src="https://www.facebook.com/profile.php?id=100054300710319&sk=reviews" width='250px' height='575px' />
+            </article>
         </nav>
     )
 }
